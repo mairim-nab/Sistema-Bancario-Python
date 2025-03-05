@@ -1,17 +1,9 @@
 # Sistema Bancário Básico
 
-Este é um sistema bancário simples, implementado em Python, que permite ao usuário realizar operações de depósito, saque e consultar o extrato da conta. O sistema foi desenvolvido como parte de um desafio, com algumas limitações específicas para o saque.
+Este é um projeto desenvolvido como parte de uma atividade do curso **Python Developer** da **DIO**, em parceria com a **Suzano**. O desafio consistiu em criar um sistema bancário simples que permite ao usuário realizar operações de depósito, saque e consultar o extrato da conta, com algumas limitações específicas para o saque.
 
-## Funcionalidades
 
-- **Depositar**: O usuário pode realizar depósitos em sua conta.
-- **Sacar**: O usuário pode realizar saques, mas existem limitações:
-  - O valor do saque não pode ultrapassar R$ 500,00.
-  - O número de saques diários é limitado a 3.
-  - O saque não pode exceder o saldo disponível na conta.
-- **Extrato**: O usuário pode visualizar o extrato de todas as operações realizadas, incluindo depósitos e saques.
-
-## Como Funciona
+## Funcionalidades e Modo de Uso
 
 1. **Depósito**: O usuário informa o valor a ser depositado, e ele será adicionado ao saldo da conta.
 2. **Saque**: O usuário pode informar o valor a ser sacado. O sistema verifica se o valor está dentro dos limites (saldo disponível, limite de saque, e número de saques diários).
